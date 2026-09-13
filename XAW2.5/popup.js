@@ -2,7 +2,7 @@ const $ = (id) => document.getElementById(id);
 const BUSY = ['collecting', 'downloading', 'generating'];
 
 // 内部版本号：从项目创建至今的修改轮次。
-const INTERNAL_BUILD = 31;
+const INTERNAL_BUILD = 32;
 
 // 默认个性化配置
 const DEFAULT_GEN = {
