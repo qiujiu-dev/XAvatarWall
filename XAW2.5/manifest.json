@@ -38,6 +38,17 @@
         "https://*.twitter.com/*"
       ],
       "js": [
+        "network-hook.js"
+      ],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
+    {
+      "matches": [
+        "https://*.x.com/*",
+        "https://*.twitter.com/*"
+      ],
+      "js": [
         "collector.js"
       ],
       "run_at": "document_idle"
